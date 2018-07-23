@@ -1,0 +1,32 @@
+html {
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: radial-gradient(circle, #ee7a56 0%, #ffab5b 100%);
+    color: #fff;
+    overflow: hidden;
+   
+  }
+
+  .fade-exit{
+    opacity: 0;
+  }
+
+  .fade-exit.fade-exit-active {
+    opacity: 0;
+  }
+
+  .fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+  }

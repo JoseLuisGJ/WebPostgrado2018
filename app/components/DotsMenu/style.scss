@@ -1,0 +1,9 @@
+@import "../../styles/main-components.scss";
+
+.c-dots-menu{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    z-index: 3;
+}

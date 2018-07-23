@@ -1,0 +1,18 @@
+.scene {
+    position: absolute;
+    opacity: 1;
+  }
+  
+  .scene--left {
+      width: 100vmin;
+      height: 100vmin;
+      transform: translate3d(-50vmin,0,0);
+  }
+  
+  .scene--full {
+      width: 100% !important;
+    height: 100vh !important;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
